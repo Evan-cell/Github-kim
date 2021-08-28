@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GithubAppComponent } from './components/github-app/github-app.component';
 import { GithubProfileComponent } from './components/github-profile/github-profile.component';
+import { GithubProfileCardComponent } from './components/github-profile-card/github-profile-card.component';
+import { GithubProfileDataComponent } from './components/github-profile-data/github-profile-data.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GithubAppComponent,
-    GithubProfileComponent
+    GithubProfileComponent,
+    GithubProfileCardComponent,
+    GithubProfileDataComponent
   ],
   imports: [
     BrowserModule,
