@@ -9,7 +9,7 @@ export class GithubAppComponent implements OnInit {
   public githubUserQuery:any;
   constructor() { }
   public searchUser(){
-     
+
   }
 
   ngOnInit(): void {
